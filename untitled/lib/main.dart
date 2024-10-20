@@ -22,7 +22,38 @@ class MyApp extends StatelessWidget {
             Container(
               margin: const EdgeInsets.all(20.0),
               child: Image.asset("assets/images/skatepark_asset.jpg"),
-            )
+            ),
+            // === ряд кнопок иконок ===========================================
+            Container(
+              margin: const EdgeInsets.all(20.0),
+              child:
+
+
+              Row( // Используем Row для расположения кнопок по горизонтали
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  IconButton(
+                    icon: const Icon(
+                        Icons.favorite,
+                        size: 64, color:
+                    Colors.deepOrangeAccent),
+                    onPressed: () {
+                      // Действие при нажатии
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(
+                        Icons.star,
+                        size: 72, color:
+                    Colors.amber),
+                    onPressed: () {
+                      // Действие при нажатии
+                    },
+                  ),
+                ],
+              ),
+              // ===============================================================
+            ),
           ],
         ),
 

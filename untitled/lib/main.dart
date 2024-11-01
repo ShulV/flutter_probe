@@ -55,6 +55,10 @@ class _NavigationExampleState extends State<NavigationExample> {
             ),
             label: 'Messages',
           ),
+          NavigationDestination(
+            icon: Icon(Icons.account_balance_outlined),
+            label: 'Spots',
+          ),
         ],
       ),
       body: <Widget>[
@@ -135,6 +139,28 @@ class _NavigationExampleState extends State<NavigationExample> {
               ),
             );
           },
+        ),
+        /// Spots
+        ListView.separated(
+            itemCount: 10,
+            itemBuilder: (BuildContext context, int index) {
+              return ListTile(
+                title: const Text(
+                  "test",
+                  style: TextStyle(fontWeight: FontWeight.w700),),
+                subtitle: const Text("subtext"),
+                trailing: IconButton(
+                  icon: const Icon(Icons.arrow_forward_ios),
+                  onPressed: () {
+                    //ignoring
+                  },
+                ),
+                leading: Image.network("https://www.amic.ru/images/post_gallery/gallery/3396/40063/medium.jpg?_=1752364182", height: 40,),
+              );
+            },
+            separatorBuilder: (BuildContext context, int index) {
+              return const Divider();
+            }
         ),
       ][currentPageIndex],
     );

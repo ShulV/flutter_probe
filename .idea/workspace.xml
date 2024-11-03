@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424c5e4b-7e4f-4851-ab28-145e3f0f7289" name="Changes" comment="" />
+    <list default="true" id="424c5e4b-7e4f-4851-ab28-145e3f0f7289" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/kotlin/com/example/untitled/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/assets/images/skatepark_asset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/fonts/PlaywriteGBS-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-maskable-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-maskable-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/web/manifest.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +51,21 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ShulV"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ShulV/flutter_probe.git",
+    "accountId": "7e74ad01-0ec9-4a0d-97ef-831839d421e1"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -30,9 +83,10 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vshul/StudioProjects/3-first-flutter-project",
+    "last_opened_file_path": "C:/Users/vshul/StudioProjects/flutter_probe/xmap_project",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

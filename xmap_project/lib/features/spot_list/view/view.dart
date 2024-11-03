@@ -1,0 +1,1 @@
+export 'spot_list_page.dart';

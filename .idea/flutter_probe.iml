@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/2-create-hello/hello/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/2-create-hello/hello/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/2-create-hello/hello/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/3-first-flutter-project/myapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/3-first-flutter-project/myapp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/3-first-flutter-project/myapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/4-flutter-test-2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/4-flutter-test-2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/4-flutter-test-2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/untitled/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/untitled/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_probe/untitled/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

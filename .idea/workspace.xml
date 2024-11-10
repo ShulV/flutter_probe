@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424c5e4b-7e4f-4851-ab28-145e3f0f7289" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/kotlin/com/example/untitled/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/assets/images/skatepark_asset.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/fonts/PlaywriteGBS-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/test/widget_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-maskable-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/icons/Icon-maskable-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/web/manifest.json" beforeDir="false" />
-    </list>
+    <list default="true" id="424c5e4b-7e4f-4851-ab28-145e3f0f7289" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,22 +16,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ShulV"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShulV&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ShulV/flutter_probe.git",
-    "accountId": "7e74ad01-0ec9-4a0d-97ef-831839d421e1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ShulV/flutter_probe.git&quot;,
+    &quot;accountId&quot;: &quot;7e74ad01-0ec9-4a0d-97ef-831839d421e1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2nKucxwAAzKNDoavqxZaArj6PNE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,7 +49,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vshul/StudioProjects/flutter_probe/xmap_project",
+    "last_opened_file_path": "/home/victor/StudioProjects/flutter_probe/xmap_project",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -105,11 +68,6 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/1-try" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Dart Command Line App.first.dart" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

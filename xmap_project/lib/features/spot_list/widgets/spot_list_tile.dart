@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/spot.dart';
+import '../../models/spot.dart';
 
 class SpotListTile extends StatelessWidget {
   const SpotListTile({
@@ -20,16 +20,17 @@ class SpotListTile extends StatelessWidget {
         trailing: IconButton(
           icon: const Icon(Icons.arrow_forward_ios),
           onPressed: () {
-            //ignoring
+            Navigator.of(context).pushNamed(
+                '/spot-item',
+                arguments: spot.id);
           },
         ),
         leading: Image.network("https://www.amic.ru/images/post_gallery/gallery/3396/40063/medium.jpg?_=1752364182", height: 40,),
         onTap: () => {
           Navigator.of(context).pushNamed(
               '/spot-item',
-              arguments: spot)
+              arguments: spot.id)
         } //TODO,
     );
   }
-
 }

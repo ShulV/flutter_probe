@@ -1,20 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:xmap_project/features/spot_list/repos/spot_repo.dart';
+import 'package:xmap_project/features/repos/spot_repo.dart';
 import 'package:xmap_project/features/spot_list/widgets/spot_list_tile.dart';
+import 'package:yandex_mapkit/yandex_mapkit.dart';
 
-import '../models/spot.dart';
+import '../../models/spot.dart';
 
 class SpotListPage extends StatefulWidget {
   const SpotListPage({super.key});
 
   @override
   State<StatefulWidget> createState() => _SpotListPageState();
-
-
 }
 
 class _SpotListPageState extends State<SpotListPage> {
   List<Spot>? _spotList;
+  late final YandexMapController _mapController;
+
+  @override
+  void dispose() {
+    _mapController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,15 +28,30 @@ class _SpotListPageState extends State<SpotListPage> {
     return Scaffold(
       body: _spotList == null // Проверяем, загружены ли данные
           ? const Center(child: CircularProgressIndicator()) // Показываем индикатор загрузки
-          : ListView.separated(
-        itemCount: _spotList!.length, // Используем длину загруженного списка
-        itemBuilder: (BuildContext context, int index) {
-          return SpotListTile(spot: _spotList![index]); // Используем безопасное обращение
-        },
-        separatorBuilder: (BuildContext context, int index) {
-          return const Divider();
-        },
-      ),
+          : Column(children: [
+            // Карта
+            Expanded(child:
+                Expanded(child:
+                YandexMap(
+                  onMapCreated: (controller) {
+                    _mapController = controller;
+                  },
+                ),
+                ),
+            ),
+            // Список
+            Expanded(child:
+              ListView.separated(
+                itemCount: _spotList!.length, // Используем длину загруженного списка
+                itemBuilder: (BuildContext context, int index) {
+                  return SpotListTile(spot: _spotList![index]); // Используем безопасное обращение
+                },
+                separatorBuilder: (BuildContext context, int index) {
+                  return const Divider();
+                },
+              ),
+            ),
+      ],)
     );
   }
 

@@ -4,13 +4,12 @@ class Spot {
     required this.name,
     required this.latitude,
     required this.longitude,
-    required this.accepted,
-    required this.addingDate,
-    required this.updatingDate,
+    required this.insertedAt,
+    required this.updatedAt,
     required this.description
 });
 
-  final num id;
+  final String id;
 
   final String name;
 
@@ -18,11 +17,9 @@ class Spot {
 
   final double longitude;
 
-  final bool accepted;
+  final DateTime insertedAt;
 
-  final DateTime addingDate;
-
-  final DateTime updatingDate;
+  final DateTime updatedAt;
 
   final String description;
 }

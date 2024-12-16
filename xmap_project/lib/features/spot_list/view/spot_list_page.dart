@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:xmap_project/features/repos/spot_repo.dart';
 import 'package:xmap_project/features/spot_list/widgets/spot_list_tile.dart';
-import 'package:yandex_mapkit/yandex_mapkit.dart';
+import 'package:yandex_maps_mapkit_lite/mapkit.dart';
+import 'package:yandex_maps_mapkit_lite/yandex_map.dart';
 
 import '../../models/spot.dart';
 
@@ -14,11 +15,10 @@ class SpotListPage extends StatefulWidget {
 
 class _SpotListPageState extends State<SpotListPage> {
   List<Spot>? _spotList;
-  late final YandexMapController _mapController;
+  MapWindow? _mapWindow;
 
   @override
   void dispose() {
-    _mapController.dispose();
     super.dispose();
   }
 
@@ -31,13 +31,7 @@ class _SpotListPageState extends State<SpotListPage> {
           : Column(children: [
             // Карта
             Expanded(child:
-                Expanded(child:
-                YandexMap(
-                  onMapCreated: (controller) {
-                    _mapController = controller;
-                  },
-                ),
-                ),
+              YandexMap(onMapCreated: (mapWindow) => _mapWindow = mapWindow)
             ),
             // Список
             Expanded(child:
